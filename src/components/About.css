@@ -1,0 +1,102 @@
+
+.about-wrapper{
+    height: 80vh;
+    margin: 0px;
+    background-image: url(../static/media/laptop.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+}
+
+.name-heading{
+    color: white;
+    position: relative;
+    display: block;
+    left: 50%;
+    top: 20px;
+    text-align: center;
+    transform: translateX(-50%);
+    border: 1px solid rebeccapurple;
+    width: fit-content;
+}
+
+.social-wrapper{
+    margin: 20px auto;
+    display: flex;
+    width: fit-content;
+}
+.social-platform{
+    margin-top: 20px;
+    display: block;
+    background-color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+}
+.github-logo{
+    object-fit: contain;
+    background-image: url(../static/media/Stack_Overflow_icon.png);
+}
+
+.bio{
+    background-color: whitesmoke;
+    border: 2px dotted teal;
+    height: 200px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 20px;
+}
+
+.bio-column-1{
+    display: flex;
+    justify-content: flex-end;
+    border: 2px dotted teal;
+}
+
+.bio-column-2{
+    display: flex;
+    border: 2px dotted teal;    
+}
+
+.my-image{
+    border-radius: 50%;
+    margin: 0;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    background-image: url(../static/media/profile.jpg);
+}
+
+.bio-text{
+    margin-left: 40px;
+    margin-right: 40px;
+    align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@media screen and (min-width: 601px) {
+    .name-heading {
+      font-size: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .name-heading {
+      font-size: 40px;
+    }
+    .social-platform{
+        width: 50px;
+        height: 50px;
+    }
+    .bio{
+        height: 200px;
+        grid-template-columns: 1fr;
+    }
+    .my-image{
+        margin: auto;
+    }
+}
