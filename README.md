@@ -74,3 +74,4 @@ https://grubersjoe.github.io/react-github-calendar/
 Copy-right at footer, or made with love
 Download resume from webpage (And make better resume )
 Show a better Competitive journey 
+put css file in different folder

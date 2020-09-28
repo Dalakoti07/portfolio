@@ -5,6 +5,7 @@ import linkedInLogo from '../static/media/LinkedIn.jpg'
 import twitterLogo from '../static/media/twitter.png'
 import githubLogo from '../static/media/github.png'
 import ProfilePhoto from '../static/media/profile.jpg'
+import Emoji from './Emoji';
 
 function AboutComponent(){
     return (
@@ -24,10 +25,9 @@ function AboutComponent(){
             </div>
             <div className="bio-column-2">
                 <h6 className="bio-text">
-                    I am a passionate software developer, I have experience of making android apps, and love to solve new interesting problems and make software solutions to them. I know android, django, nodeJS.
-                    I have ...
-                    I am a passionate software developer, I have experience of making android apps, and love to solve new interesting problems and make software solutions to them. I know android, django, nodeJS.
-                    I have ...
+                    I am a aspiring software developer, I have experience of making android apps, and love to learn new tech stack and appreciate the new way of doing things and what these new frame-works bring to table. 
+                    I know android, django, nodeJS.
+                    I think code is like poem, and practitioners of writing code should strive to be poet <Emoji symbol="😀" label="happy"/>.
                 </h6>
             </div>
         </div>
