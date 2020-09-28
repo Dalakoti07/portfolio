@@ -50,7 +50,6 @@
 }
 
 .thumbnail{
-    background-image: url(../static/media/dash.jpg);
     display: block;
 	width: 100%;
 	height:180px;

@@ -13,6 +13,7 @@
     background-position: center;
     background-size: cover;
     align-items: center;
+    z-index: 1;
 }
 
 .name-heading{
@@ -34,6 +35,8 @@
     width: fit-content;
 }
 .social-platform{
+    cursor: pointer;
+    display: block;
     margin-top: 20px;
     display: block;
     background-color: white;
@@ -44,7 +47,9 @@
 }
 .github-logo{
     object-fit: contain;
-    background-image: url(../static/media/Stack_Overflow_icon.png);
+}
+.linkedIn-logo{
+    object-fit: cover;
 }
 
 .bio{

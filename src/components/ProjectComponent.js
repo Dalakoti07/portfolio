@@ -1,5 +1,6 @@
 import React from 'react';
 import './Project.css'
+import ProjectImage from '../static/media/dash.jpg'
 
 function ProjectComponent(){
     return(
@@ -18,7 +19,7 @@ function ProjectComponent(){
 
             <div className="project-card-wrapper">
                 <div className="project-card">
-                    <img class="thumbnail" alt=""/>
+                    <img class="thumbnail" alt="" src={ProjectImage}/>
                     <div class="project-preview">
                         <h6 class="project-title">Price Comparison App</h6>
                         <p class="project-intro">A kotlin based android app that does the price comparison of various products from different ecommerce sites</p>
@@ -30,7 +31,7 @@ function ProjectComponent(){
                 </div>
 
                 <div className="project-card">
-                    <img class="thumbnail" alt=""/>
+                    <img class="thumbnail" alt="" src={ProjectImage}/>
                     <div class="project-preview">
                         <h6 class="project-title">Tell me Game</h6>
                         <p class="project-intro">A deep learning model which is amazing</p>

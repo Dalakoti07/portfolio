@@ -27,7 +27,7 @@ function ContactComponent(){
                 <div class="footer-contact">
                     <p><a href="mailto:">saurabhdalakoti07@gmail.com</a></p>
                     <p><a href="tel:">91-9643957249</a></p>
-                    <p><a target="blank" href="https://goo.gl/maps/cfD82wVhrUbxUNiV6">964/21 Shiv Nagar<br />Near Sector 10A, Gurgaon, Haryana</a></p>
+                    <p><a rel="noopener noreferrer" target="_blank" href="https://goo.gl/maps/cfD82wVhrUbxUNiV6">964/21 Shiv Nagar<br />Near Sector 10A, Gurgaon, Haryana</a></p>
                 </div>
             </div>
         </div>
