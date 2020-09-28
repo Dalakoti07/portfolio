@@ -5,7 +5,7 @@ import './About.css'
 // about (name,) and profile(stackoverflow, github, linkedin)
 function AboutComponent(){
     return (
-        <div>
+        <div className="about-full-wrapper">
         <div className="about-wrapper">
             <h1 className="name-heading">Hi I'm Saurabh Dalakoti</h1>
             <div className="social-wrapper">

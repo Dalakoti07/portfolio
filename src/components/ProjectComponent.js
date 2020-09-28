@@ -21,17 +21,23 @@ function ProjectComponent(){
                     <img class="thumbnail" alt=""/>
                     <div class="project-preview">
                         <h6 class="project-title">Price Comparison App</h6>
-                        <p class="project-intro">Designed built  mantained a the lab managment system for FOI Laboratories</p>
-                        <a target="blank" href="https://github.com/Dalakoti07/daphnis-labs">Read More</a>
+                        <p class="project-intro">A kotlin based android app that does the price comparison of various products from different ecommerce sites</p>
+                        <div className="project-links">
+                            <a target="blank" href="https://github.com/Dalakoti07/daphnis-labs">Source Code</a>
+                            <a target="blank" href="https://github.com/Dalakoti07/daphnis-labs">Product</a>
+                        </div>
                     </div>
                 </div>
 
                 <div className="project-card">
                     <img class="thumbnail" alt=""/>
                     <div class="project-preview">
-                        <h6 class="project-title">Cricket vs BaseBall Classifier</h6>
-                        <p class="project-intro">Designed built  mantained a the lab managment system for FOI Laboratories</p>
-                        <a target="blank" href="https://github.com/Dalakoti07/cricketVsBaseball">Read More</a>
+                        <h6 class="project-title">Tell me Game</h6>
+                        <p class="project-intro">A deep learning model which is amazing</p>
+                        <div className="project-links">
+                            <a target="blank" href="https://github.com/Dalakoti07/cricketVsBaseball">Read More</a>
+                            <a target="blank" href="https://github.com/Dalakoti07/cricketVsBaseball">Product</a>
+                        </div>
                     </div>
                 </div>
             </div>

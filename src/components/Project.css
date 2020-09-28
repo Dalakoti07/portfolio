@@ -1,13 +1,25 @@
 .project-container{
-    padding: 40px;
+    padding-left: 40px;
+    padding-top: 40px;
 }
 
 .my-heading{
+    border: 1px solid rebeccapurple;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 60px;
 }
+.tag-container{
+    padding: 10px;
+    border: 1px solid rebeccapurple;
+}
+
+.project-links{
+    display: flex;
+    justify-content: space-between;
+}
 
 .chip {
+    margin-top: 7px;
     cursor: pointer;
     display: inline-block;
     padding: 0 25px;
@@ -21,16 +33,17 @@
 }
 
 .project-card-wrapper{
-    padding: 40px;
+    padding-top: 40px;
+    padding-left: 40px;
     display: grid;
 	grid-template-columns: repeat(auto-fit, 320px);
 	gap:20px;
-	justify-content: start;
-	padding-bottom: 50px;
+    justify-content: start;
+    margin-bottom: 40px;
 }
 
 .project-card{
-    border:1px solid var(--borderColor);
+    border:1px solid #c1c1c1;
 	-webkit-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	-moz-box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
 	box-shadow: -2px 7px 21px -9px rgba(0,0,0,0.75);
