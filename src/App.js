@@ -5,14 +5,19 @@ import AboutComponent from './components/AboutComponent';
 import ProjectComponent from './components/ProjectComponent';
 import ExperienceComponent from './components/ExperienceComponent';
 import ContactComponent from './components/ContactComponent';
-import getTheProjects from './utils/DataProvider'
+import {getTheProjects,getTheTags,getProjectsByTag} from './utils/DataProvider'
+
+function chipsClicked(tag) {
+  let filteredList= getProjectsByTag(tag)
+  console.log(filteredList);
+}
 
 function App() {
   return (
     <div className="App">
       <NavBarComponent/>
       <AboutComponent/>
-      <ProjectComponent data={getTheProjects()}/>
+      <ProjectComponent projectsList={getTheProjects()}  tags={getTheTags()} tagOnClick={chipsClicked}/>
       <ExperienceComponent/>
       <ContactComponent/>
     </div>

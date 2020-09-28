@@ -72,3 +72,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 Make a github contribution graph and Skills progress bar
 https://grubersjoe.github.io/react-github-calendar/
 Copy-right at footer, or made with love
+Download resume from webpage (And make better resume )
+Show a better Competitive journey 
