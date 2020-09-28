@@ -5,13 +5,14 @@ import AboutComponent from './components/AboutComponent';
 import ProjectComponent from './components/ProjectComponent';
 import ExperienceComponent from './components/ExperienceComponent';
 import ContactComponent from './components/ContactComponent';
+import getTheProjects from './utils/DataProvider'
 
 function App() {
   return (
     <div className="App">
       <NavBarComponent/>
       <AboutComponent/>
-      <ProjectComponent/>
+      <ProjectComponent data={getTheProjects()}/>
       <ExperienceComponent/>
       <ContactComponent/>
     </div>

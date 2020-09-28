@@ -80,7 +80,6 @@
     object-fit: cover;
     width: 150px;
     height: 150px;
-    background-image: url(../static/media/profile.jpg);
 }
 
 .bio-text{

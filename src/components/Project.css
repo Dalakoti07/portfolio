@@ -33,8 +33,10 @@
 }
 
 .project-card-wrapper{
-    padding-top: 40px;
-    padding-left: 40px;
+    border: 2px solid red;
+    margin-right: 40px;
+    margin-top: 40px;
+    margin-left: 40px;
     display: grid;
 	grid-template-columns: repeat(auto-fit, 320px);
 	gap:20px;
@@ -69,4 +71,11 @@
 .project-intro{
     color:#4b5156;
 	font-size: 14px;
+}
+
+@media screen and (max-width: 600px) {
+    .project-card-wrapper{
+        margin: 0 auto;
+        width: 90%;
+    }
 }

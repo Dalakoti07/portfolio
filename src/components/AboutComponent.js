@@ -4,6 +4,7 @@ import StackOverFlowLogo from '../static/media/Stack_Overflow_icon.png'
 import linkedInLogo from '../static/media/LinkedIn.jpg'
 import twitterLogo from '../static/media/twitter.png'
 import githubLogo from '../static/media/github.png'
+import ProfilePhoto from '../static/media/profile.jpg'
 
 function AboutComponent(){
     return (
@@ -19,9 +20,7 @@ function AboutComponent(){
         </div>
         <div className="bio">
             <div className="bio-column-1">
-                <div className="my-image">
-
-                </div>
+                <img alt="" className="my-image" src={ProfilePhoto}/>
             </div>
             <div className="bio-column-2">
                 <h6 className="bio-text">
