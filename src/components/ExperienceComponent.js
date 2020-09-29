@@ -4,6 +4,7 @@ import './Experience.css'
 function ExperienceComponent(props){
     return(
         <div>
+            <a name="experience" href="/#"></a>
             <div className="experience-container">
                 <h3 className="my-heading">Internships</h3>
             </div>

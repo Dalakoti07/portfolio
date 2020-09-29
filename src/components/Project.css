@@ -3,14 +3,9 @@
     padding-top: 40px;
 }
 
-.my-heading{
-    border: 1px solid rebeccapurple;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
-}
 .tag-container{
     padding: 10px;
-    border: 1px solid rebeccapurple;
+    /* border: 1px solid rebeccapurple; */
 }
 
 .project-links{
@@ -33,7 +28,7 @@
 }
 
 .project-card-wrapper{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin-right: 40px;
     margin-top: 40px;
     margin-left: 40px;

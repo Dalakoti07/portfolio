@@ -7,6 +7,7 @@ import twitterLogo from '../static/media/twitter.png'
 import githubLogo from '../static/media/github.png'
 import ProfilePhoto from '../static/media/profile.jpg'
 import Emoji from './Emoji';
+import resumePDF from '../resume.pdf'
 
 function AboutComponent(){
     return (
@@ -26,11 +27,11 @@ function AboutComponent(){
             </div>
             <div className="bio-column-2">
                 <h6 className="bio-text">
-                    I am a aspiring software developer, I have experience of making android apps, and love to learn new tech stack and appreciate the new way of doing things and what these new frame-works bring to the table. 
+                    I am an aspiring software developer, I have experience of making android apps, and love to learn new tech stack and appreciate the new way of doing things and what these new frame-works bring to the table. 
                     I know android, django, nodeJS.
                     I think code is like poem, and coders should strive to be poet <Emoji symbol="😀" label="happy"/>.
                 </h6>
-                <a href="resume.pdf" target="_blank" className="download-button"><i className="icon-download fa fa-download"></i> Download Resume</a>
+                <a href={resumePDF} target="_blank" className="download-button"><i className="icon-download fa fa-download"></i> Download Resume</a>
             </div>
         </div>
         </div>

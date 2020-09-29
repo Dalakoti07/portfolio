@@ -1,16 +1,14 @@
 .contact-heading{
+	scroll-behavior: auto;
     padding-left: 40px;
     padding-top: 40px;
-    border: 1px solid rebeccapurple;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;    
+    /* border: 1px solid rebeccapurple; */
 }   
 .contact-container{
 	width: 50%;
     margin: 0 auto;
     height: fit-content;
 }
-
 
 #contact-form label{
 	line-height: 2.7em;

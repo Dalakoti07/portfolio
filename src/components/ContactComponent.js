@@ -1,10 +1,15 @@
 import React from 'react';
 import './Contact.css'
 
+function onClickButton(event) {
+    console.log("Button clicked ");
+    event.preventDefault();
+}
+
 function ContactComponent(){
     return(
         <div>
-            <h3 className="contact-heading">Get In Touch</h3>
+            <h3 className="contact-heading my-heading">Get In Touch</h3>
             <div className="contact-container">
 
                 <form id="contact-form">
@@ -20,7 +25,7 @@ function ContactComponent(){
                     <label>Message</label>
                     <textarea className="input-field" name="message"></textarea>
 
-                    <input id="submit-btn" type="submit" value="Send"/>
+                    <input id="submit-btn" onClick={onClickButton} type="submit" value="Send"/>
                 </form>
 
                 <h4>Contact Details</h4>

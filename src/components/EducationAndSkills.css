@@ -3,12 +3,7 @@
     height: fit-content;
     padding-left: 40px;
     padding-top: 40px;
-    border: 2px solid black;
-}
-
-.education-heading{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
+    /* border: 2px solid black; */
 }
 
 .education-card-wrapper{
@@ -66,9 +61,19 @@
     border-radius: 10px;
 }
 
+/* for screen less than 1360px */
 @media screen and (max-width: 1360px) {
     .education-card ,.skills-card{
         margin-left: 0;
         width: 90%;
+    }
+    .education-name{
+        font-size: 15px;
+    }
+    .school-name{
+        font-size: 20px;
+    }
+    .percentage{
+        font-size: 15px;
     }
 }

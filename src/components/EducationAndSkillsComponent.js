@@ -5,7 +5,7 @@ function EducationAndSkillsComponent(props){
     return (
         <div>
             <div className="education-skills-container">
-                <h1 className="education-heading">Education</h1>
+                <h1 className="my-heading">Education</h1>
                 <div className="education-card-wrapper">
                     <div className="education-card">
                     <h6 className="school-name">Apeejay Stya University</h6>
@@ -22,7 +22,7 @@ function EducationAndSkillsComponent(props){
             </div>
 
             <div className="education-skills-container">
-                <h1 className="education-heading">Skills</h1>
+                <h1 className="my-heading">Skills</h1>
                 <div className="education-card-wrapper">
                 {props.skills.map(skill=>(
                         <div className="skills-card">

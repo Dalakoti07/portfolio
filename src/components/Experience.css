@@ -5,9 +5,9 @@
 }
 
 .my-heading{
-    border: 1px solid red;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 60px;
+    /* border: 1px solid red; */
+    font-family: 'Russo One', sans-serif;
+    font-size: 40px;
 }
 
 .experience-card-wrapper{
@@ -40,10 +40,20 @@
     font-size: 20px;
 }
 
-
+/* for screens less than 1360px */
 @media screen and (max-width: 1360px) {
     .experience-card{
         margin-left: 0;
         width: 90%;
+    }
+    .company-name{
+        font-family: 'Roboto', sans-serif;
+        font-size: 20px;
+    }
+    
+    .role-title{
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15px;
     }
 }
