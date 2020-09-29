@@ -25,7 +25,6 @@
     font-family: 'Russo One', sans-serif;
     text-align: center;
     transform: translateX(-50%);
-    border: 1px solid rebeccapurple;
     width: fit-content;
 }
 
@@ -54,7 +53,6 @@
 
 .bio{
     background-color: whitesmoke;
-    border: 2px dotted teal;
     height: 200px;
     background-color: white;
     display: grid;
@@ -66,12 +64,10 @@
 .bio-column-1{
     display: flex;
     justify-content: flex-end;
-    border: 2px dotted teal;
 }
 
-.bio-column-2{
-    border: 2px dotted teal;    
-}
+/* .bio-column-2{
+} */
 
 .download-button{
     width: fit-content;
@@ -86,11 +82,9 @@
 
     height: fit-content;
     display: block;
-    border: 2px dotted teal;    
 }
 
 .download-button:hover{
-    border: 2px solid black;
     color: white;
     text-decoration: none;
 }
@@ -105,7 +99,6 @@
 
 .bio-text{
     margin-top: 20px;
-    border: 2px dotted teal;    
     margin-left: 40px;
     margin-right: 40px;
     align-self: center;
