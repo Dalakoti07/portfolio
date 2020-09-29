@@ -29,10 +29,9 @@ function AboutComponent(){
                     I know android, django, nodeJS.
                     I think code is like poem, and coders should strive to be poet <Emoji symbol="😀" label="happy"/>.
                 </h6>
-                
+                <a href="resume.pdf" target="_blank" className="download-button"><i className="icon-download fa fa-download"></i> Download Resume</a>
             </div>
         </div>
-
         </div>
     )
 }

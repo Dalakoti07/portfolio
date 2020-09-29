@@ -70,8 +70,29 @@
 }
 
 .bio-column-2{
-    display: flex;
     border: 2px dotted teal;    
+}
+
+.download-button{
+    width: fit-content;
+    padding-left: 5px;
+    background-color: rgb(5, 6, 7);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 40px;
+
+    height: fit-content;
+    display: block;
+    border: 2px dotted teal;    
+}
+
+.download-button:hover{
+    border: 2px solid black;
+    color: white;
+    text-decoration: none;
 }
 
 .my-image{
@@ -83,6 +104,8 @@
 }
 
 .bio-text{
+    margin-top: 20px;
+    border: 2px dotted teal;    
     margin-left: 40px;
     margin-right: 40px;
     align-self: center;
