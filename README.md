@@ -69,10 +69,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 ### Todo
-put css file in different folder - refractoring
-Make a github contribution graph and Skills progress bar
-https://grubersjoe.github.io/react-github-calendar/
-Copy-right at footer, or made with love
-Download resume from webpage (And make better resume )
-Education below after skills
-Show a better Competitive journey 
+    - put css file in different folder - refractoring
+    - Make a github contribution graph and Skills progress bar
+    - https://grubersjoe.github.io/react-github-calendar/
+    - Made with love at footer
+    - Download resume from webpage (And make better resume )
+    - Education below after skills
+    - Show resume on new tab
+    - Show a better Competitive journey 
+    - implement smooth scroll when using anchors https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react
+    - use email js, and use mail gun 
+

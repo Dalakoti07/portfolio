@@ -5,6 +5,7 @@ function ProjectComponent(props){
     // console.log(props.projectsList," is project list ")
     return(
         <div>
+            <a name="project" href="/#"></a>
             <div className="project-container">
                 <h3 className="my-heading">Projects</h3>
                 <div className="tag-container">
