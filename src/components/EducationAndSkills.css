@@ -1,0 +1,74 @@
+/* education section */
+.education-skills-container{
+    height: fit-content;
+    padding-left: 40px;
+    padding-top: 40px;
+    border: 2px solid black;
+}
+
+.education-heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+}
+
+.education-card-wrapper{
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.education-card{
+    padding-left: 10px;
+    margin-left: 50vh;
+    width: 60%;
+    border: 1px solid #e5e5e5 ;
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+
+.education-name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+}
+
+.school-name{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+
+.percentage{
+    font-size: 20px;
+}
+
+
+/* skills section */
+.skill-container{
+    width: 100%;
+    background-color:#CCCCCC; 
+}
+.skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    background-color: black;
+}
+
+.skill-label{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skills-card{
+    padding-left: 10px;
+    margin-left: 50vh;
+    width: 60%;
+    margin-bottom: 2em;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1360px) {
+    .education-card ,.skills-card{
+        margin-left: 0;
+        width: 90%;
+    }
+}

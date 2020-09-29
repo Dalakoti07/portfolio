@@ -5,7 +5,8 @@ import AboutComponent from './components/AboutComponent';
 import ProjectComponent from './components/ProjectComponent';
 import ExperienceComponent from './components/ExperienceComponent';
 import ContactComponent from './components/ContactComponent';
-import {getTheProjects,getTheTags,getProjectsByTag,getPastExperienceData} from './utils/DataProvider'
+import {getTheProjects,getTheTags,getProjectsByTag,getPastExperienceData,getTheSkillsList} from './utils/DataProvider'
+import EducationAndSkillsComponent from './components/EducationAndSkillsComponent';
 
 var currentProjects
 var setProjectList
@@ -26,6 +27,7 @@ function App() {
       <AboutComponent/>
       <ProjectComponent projectsList={currentProjects}  tags={getTheTags()} tagOnClick={chipsClicked}/>
       <ExperienceComponent experiences={getPastExperienceData()}/>
+      <EducationAndSkillsComponent skills={getTheSkillsList()}/>
       <ContactComponent/>
     </div>
   );
