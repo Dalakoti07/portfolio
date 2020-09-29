@@ -69,7 +69,6 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 
 ### Todo
-    - put css file in different folder - refractoring
     - Make a github contribution graph and Skills progress bar
     - https://grubersjoe.github.io/react-github-calendar/
     - Made with love at footer

@@ -7,7 +7,6 @@
 .about-wrapper{
     height: 80vh;
     margin: 0px;
-    background-image: url(../static/media/laptop.jpg);
     background-repeat: no-repeat;
     object-fit: cover;
     background-position: center;

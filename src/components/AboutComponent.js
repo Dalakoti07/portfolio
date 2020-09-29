@@ -1,5 +1,6 @@
 import React from 'react';
 import './About.css'
+import backGroundImage from '../static/media/laptop.jpg'
 import StackOverFlowLogo from '../static/media/Stack_Overflow_icon.png'
 import linkedInLogo from '../static/media/LinkedIn.jpg'
 import twitterLogo from '../static/media/twitter.png'
@@ -10,7 +11,7 @@ import Emoji from './Emoji';
 function AboutComponent(){
     return (
         <div className="about-full-wrapper">
-        <div className="about-wrapper">
+        <div className="about-wrapper" style={{'background-image':`url(${backGroundImage})`}}>
             <h1 className="name-heading">Hi I'm Saurabh Dalakoti</h1>
             <div className="social-wrapper">
                 <a rel="noopener noreferrer" href="https://github.com/Dalakoti07/" target="_blank"><img alt="" src={githubLogo} className="social-platform github-logo"/></a> 
