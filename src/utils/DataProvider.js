@@ -107,7 +107,7 @@ function getPastExperienceData(){
         'role_title':'Android Developer, June 2020 to Aug 2020 ',
         'description':['PayPad is a startup that just kicked off with any intent toward modern security deposit alternative. Tenants can move in without paying high upfront costs and owners get the same security.  '
             ,'I worked on the android App, and implemented it with MVVM architecture and beautiful material Desing, and using Android best practises in android developement and using Firebase as a service.'],
-        'link':null
+        'link':"http://paypad.co.in/"
     }]
 }
 

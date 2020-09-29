@@ -34,7 +34,13 @@ function ContactComponent(){
                     <p><a href="tel:">91-9643957249</a></p>
                     <p>964/21 Shiv Nagar, Near Sector 10A, Gurgaon, Haryana</p>
                 </div>
+
+                <div>
+                    <p className="love">Made with <i className="icon-heart fa fa-heart"></i> by Dalakoti07</p>
+                </div>
             </div>
+
+            
         </div>
     )
 }
