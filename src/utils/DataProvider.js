@@ -1,5 +1,12 @@
-import ProjectImage from '../static/media/dash.jpg'
-
+import OptimalProjectThumbnail from '../static/media/optimalPrice.png'
+import musicThumbnail from '../static/media/music.jpg'
+import musicGenerator from '../static/media/music_generator.jpg'
+import comedyShowThumbnail from '../static/media/comedy_show.jpg'
+import booksThumbnail from '../static/media/booksThumbnail.jpg'
+import ReminderThumbnail from '../static/media/reminder.jpg'
+import PortfolioThumbnail from '../static/media/This.Website.png'
+import ExaminationThumbnail from '../static/media/examination.jpg'
+import COBThumbnail from '../static/media/cob.jpeg'
 
 function getTheProjects() {
     return [{
@@ -7,70 +14,70 @@ function getTheProjects() {
         "intro":"A kotlin based android app that does the price comparison of various products from different ecommerce sites.",
         "deployedUrl":null,
         "sourceCodeUrl":"https://github.com/Dalakoti07/daphnis-labs",
-        "imageUrl":ProjectImage,
+        "imageUrl":OptimalProjectThumbnail,
         "tags":["kotlin","android"]
     },{
         "title":"Predict the game",
         "intro":"A deep learning model which is based in Convolution neural Network, and tells what actually this game is?",
         "deployedUrl":"https://cob-07.herokuapp.com/",
         "sourceCodeUrl":"https://github.com/Dalakoti07/cricketVsBaseball",
-        "imageUrl":ProjectImage,
+        "imageUrl":COBThumbnail,
         "tags":["python","deep learning","machine learning"]
     },{
         "title":"Music Player",
         "intro":"An Android Music Player App, can play music on your phones and the stream the songs from web, clean and better and sumptuous UI.",
         "deployedUrl":"https://play.google.com/store/apps/details?id=com.MSC.musicplayer",
         "sourceCodeUrl":null,
-        "imageUrl":ProjectImage,
+        "imageUrl":musicThumbnail,
         "tags":["android","java"]
     },{
         "title":"Web Scrapper Django Rest API",
         "intro":"Production grade Full Restful Backend deployed in AWS EC2 with 2-way Authentication with API comparison motive.",
         "deployedUrl":null,
         "sourceCodeUrl":null,
-        "imageUrl":ProjectImage,
+        "imageUrl":OptimalProjectThumbnail,
         "tags":["python","django","rest-api"]
     },{
         "title":"Music Generator",
         "intro":"A deep learning model which generates the brand music, this uses RNN as a generation Model.",
         "deployedUrl":null,
         "sourceCodeUrl":"https://github.com/Dalakoti07/musicly",
-        "imageUrl":ProjectImage,
+        "imageUrl":musicGenerator,
         "tags":["python","deep learning","machine learning"]
     },{
         "title":"TV Script writer",
         "intro":"A deep learning model which generates the new comedy scripts, it uses RNN as generative model.",
         "deployedUrl":null,
         "sourceCodeUrl":"https://github.com/Dalakoti07/TwoAndHalfMenScriptGenerator",
-        "imageUrl":ProjectImage,
+        "imageUrl":comedyShowThumbnail,
         "tags":["python","deep learning","machine learning"]
     },{
         "title":"Book Mania",
         "intro":"A Flask based CRUD application, which allows you to view books, see their rating and review them.",
         "deployedUrl":"https://herokubookreview.herokuapp.com",
         "sourceCodeUrl":"https://github.com/Dalakoti07/BookMania",
-        "imageUrl":ProjectImage,
+        "imageUrl":booksThumbnail,
         "tags":["python","flask","web"]
     },{
         "title":"Reminder C++ CLI",
-        "intro":"The first project, because of this feature only it is making to this list",
+        "intro":"The first self made software project which allows to create, add, edit, delete reminder to the user.",
         "deployedUrl":null,
         "sourceCodeUrl":"https://github.com/Dalakoti07/Reminder_Software",
-        "imageUrl":ProjectImage,
+        "imageUrl":ReminderThumbnail,
         "tags":["c++","cli"]
     },{
         "title":"React JS Portfolio website",
-        "intro":"React JS Project to build own portfolio website",
+        "intro":"Portfolio website to demonstrate the projects and experience, implemented using HTML-CSS, and powered by React",
         "deployedUrl":"#",
         "sourceCodeUrl":null,
-        "imageUrl":ProjectImage,
+        "imageUrl":PortfolioThumbnail,
         "tags":["html-css","react"]
     },{
         "title":"Examination Solution for Covid",
         "intro":"A complete realtime web-app which enables teachers to take online-examination in best possible interactive way.",
         "deployedUrl":null,
         "sourceCodeUrl":null,
-        "imageUrl":ProjectImage,
+        "imageUrl":ExaminationThumbnail,
         "tags":["node js"]
     }]
 }
