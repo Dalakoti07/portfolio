@@ -68,12 +68,14 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
 
-### Todo
+### Todo/Bugs
     - Make a github contribution graph and Skills progress bar
     - https://grubersjoe.github.io/react-github-calendar/
     - Made with love at footer
-    - Show a better Competitive journey 
+    - Show DSA journey 
     - implement smooth scroll when using anchors https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react
-    - use email js, and use mail gun 
+    - use emailJS, and use mail gun 
 
     - seek solution to the nested scroll
+    - reactJS app is scrolling endlessly with white screen - https://www.andreasreiterer.at/fix-whitescreen-static-react-app/
+    

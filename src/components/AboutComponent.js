@@ -17,7 +17,7 @@ function AboutComponent(){
             <div className="social-wrapper">
                 <a rel="noopener noreferrer" href="https://github.com/Dalakoti07/" target="_blank"><img alt="" src={githubLogo} className="social-platform github-logo"/></a> 
                 <a rel="noopener noreferrer" href="https://www.linkedin.com/in/saurabh-d-990930145/" target="_blank"><img alt="" src={linkedInLogo} className="social-platform linkedIn-logo"/></a>
-                <img alt="" src={StackOverFlowLogo} className="social-platform stackoverflow-logo"/>
+                <a rel="noopener noreferrer" href="https://stackoverflow.com/users/10386258/dalakoti07" target="_blank"><img alt="" src={StackOverFlowLogo} className="social-platform stackoverflow-logo"/></a>
                 <a rel="noopener noreferrer" href="https://twitter.com/SaurabhDalakot5" target="_blank"><img alt="" src={twitterLogo} className="social-platform twitter-logo"/></a>
             </div>
         </div>

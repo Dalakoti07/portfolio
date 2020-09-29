@@ -36,7 +36,7 @@ function ContactComponent(){
                 </div>
 
                 <div>
-                    <p className="love">Made with <i className="icon-heart fa fa-heart"></i> by Dalakoti07</p>
+                    <p className="love">Made with <i className="icon-heart fa fa-heart"></i> by Saurabh Dalakoti</p>
                 </div>
             </div>
 
