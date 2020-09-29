@@ -79,3 +79,4 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
     - implement smooth scroll when using anchors https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react
     - use email js, and use mail gun 
 
+    - seek solution to the nested scroll
