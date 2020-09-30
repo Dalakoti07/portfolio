@@ -32,8 +32,8 @@ function getTheProjects() {
         "tags":["android","java"]
     },{
         "title":"Web Scrapper Django Rest API",
-        "intro":"Production grade Full Restful Backend deployed in AWS EC2 with 2-way Authentication with API comparison motive.",
-        "deployedUrl":null,
+        "intro":"Production grade Full Restful Backend deployed in AWS EC2 with 2-way Authentication with Price comparison API motive.",
+        "deployedUrl":"https://documenter.getpostman.com/view/12704097/TVRd8WWy",
         "sourceCodeUrl":null,
         "imageUrl":OptimalProjectThumbnail,
         "tags":["python","django","rest-api"]

@@ -76,6 +76,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
     - implement smooth scroll when using anchors https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react
     - use emailJS, and use mail gun 
 
+    - reduce image size
     - seek solution to the nested scroll
     - reactJS app is scrolling endlessly with white screen - https://www.andreasreiterer.at/fix-whitescreen-static-react-app/
     
