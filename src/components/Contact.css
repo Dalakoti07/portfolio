@@ -5,9 +5,10 @@
     /* border: 1px solid rebeccapurple; */
 }   
 .contact-container{
+	/* border: 1px solid green; */
 	width: 50%;
     margin: 0 auto;
-    height: fit-content;
+	height: auto;
 }
 
 #contact-form label{
@@ -15,10 +16,11 @@
 }
 
 #contact-form textarea{
-	min-height: 100px;
+	/* border: 2px solid red; */
+	min-height: 200px;
 	font-size: 14px;
+	max-height: 400px;
 }
-
 
 .input-field{
 	padding-left: 10px;
@@ -30,7 +32,6 @@
 	border:1px solid #c1c1c1;
 	font-size: 14px;
 }
-
 
 #submit-btn{
     margin-bottom: 3rem;

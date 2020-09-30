@@ -86,7 +86,7 @@ class ContactComponent extends React.Component{
 
     render(){
         return(
-            <div>
+            <div className="outest-div">
             <h3 className="contact-heading my-heading">Get In Touch</h3>
             <div className="contact-container">
 
@@ -111,7 +111,7 @@ class ContactComponent extends React.Component{
 
                     <div>
                         <label>Message</label>
-                        <textarea onChange={this.handleChange} className="input-field" name="message"></textarea>
+                        <textarea onChange={this.handleChange} className="input-field send-message-area" name="message"></textarea>
                         <span className='error'>{this.state["messageError"]}</span>
                     </div>
 
