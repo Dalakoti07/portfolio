@@ -11,12 +11,12 @@ function ExperienceComponent(props){
 
             <div className="experience-card-wrapper">
                 {props.experiences.map(experience=>(
-                    <div className="experience-card">
+                    <div key={experience.company_name} className="experience-card">
                     <h6 className="company-name">{experience.company_name}</h6>
                     <p className="role-title">{experience.role_title}</p>
                     {
                         experience.description.map((desc)=> {
-                        return <p className="work-description">{desc}</p>
+                        return <p key={desc} className="work-description">{desc}</p>
                         })
                     }
                     <a target="blank" href={experience.link}>Read More</a>

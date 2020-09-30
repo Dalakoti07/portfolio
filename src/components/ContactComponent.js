@@ -1,11 +1,6 @@
-import React,{useState} from 'react';
+import React from 'react';
 import './Contact.css'
 import emailjs from 'emailjs-com';
-
-
-// state 
-var currentState
-var setState
 
 
 const validEmailRegex = RegExp(
@@ -19,91 +14,107 @@ const validateForm = errors => {
 
 function sendEmail(event) {
     event.preventDefault();
-
-    if(validateForm(currentState)) {
-        console.info('Valid Form')
-        event.target.reset()
-        /*
-        emailjs.sendForm('gmail', 'template_29vgg0a', event.target, 'user_0Nd5CmhtMO1z3Ctmj135a')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-        event.target.reset()
-        */
-    }else{
-        console.error('Invalid Form')
-    }
+    emailjs.sendForm('gmail', 'template_29vgg0a', event.target, 'user_0Nd5CmhtMO1z3Ctmj135a')
+    .then((result) => {
+        console.log(result.text);
+    }, (error) => {
+        console.log(error.text);
+    });
+    event.target.reset()
+    
 }
 
-function handleChange(event){
-    console.log(`Monitoring change at ${event.target.name} and current state is`)
-    event.preventDefault();
-    const { name, value } = event.target;
-    // getting the errors in currentstate
-    let newErrors = currentState;
-    // console.log(newErrors)
-
-    switch (name) {
-      case 'name': 
-        newErrors["nameError"] = 
-          value.length < 5
-            ? 'Full Name must be at least 5 characters long!'
-            : '';
-        break;
-      case 'email': 
-        newErrors["emailError"] = 
-          validEmailRegex.test(value)
-            ? ''
-            : 'Email is not valid!';
-        break;
-      case 'subject': 
-        newErrors["subjectError"] = 
-          value.length < 8
-            ? 'Subject must be at least 8 characters long!'
-            : '';
-        break;
-      default:
-        break;
+class ContactComponent extends React.Component{
+    constructor(props) {
+        super(props);
+        this.state = {
+            nameError: '',
+            emailError: '',
+            subjectError: '',
+            messageError:'',
+        };
     }
-    setState(errors=> newErrors)
-    console.log(currentState)
-}
 
-function getTheInitialState(){
-    return{
-        nameError: '',
-        emailError: '',
-        subjectError: '',
-        messageError:'',
+    handleSubmit = (event) => {
+        event.preventDefault();
+        if(validateForm(this.state)) {
+          console.info('Valid Form')
+          sendEmail(event)
+        }else{
+          console.error('Invalid Form')
+        }
     }
-}
 
-function ContactComponent(){
-    [currentState,setState]= useState(()=> getTheInitialState())
-    return(
-        <div>
+    handleChange = (event) => {
+        // console.log(`Monitoring change at ${event.target.name} and current state is`)
+        event.preventDefault();
+        const { name, value } = event.target;
+        let newErrors = this.state;
+        // console.log(newErrors)
+    
+        switch (name) {
+          case 'name': 
+            newErrors["nameError"] = 
+              value.length < 5
+                ? 'Full Name must be at least 5 characters long!'
+                : '';
+            break;
+          case 'email': 
+            newErrors["emailError"] = 
+              validEmailRegex.test(value)
+                ? ''
+                : 'Email is not valid!';
+            break;
+          case 'subject': 
+            newErrors["subjectError"] = 
+              value.length < 8
+                ? 'Subject must be at least 8 characters long!'
+                : '';
+            break;
+          case 'message': 
+            newErrors["messageError"] = 
+              value.length < 10
+                ? 'Message must be at least 10 characters long!'
+                : '';
+            break;
+          default:
+            break;
+        }
+        this.setState(errors=> newErrors)
+        // console.log(this.state)
+    }
+
+    render(){
+        return(
+            <div>
             <h3 className="contact-heading my-heading">Get In Touch</h3>
             <div className="contact-container">
 
-                <form id="contact-form" onSubmit={sendEmail}>
-                    <div className="test-box">                    
-                    <label>Name</label>
-                    <input className="input-field" onChange={handleChange} type="text" name="name"/>
-                    <span className='error'>{currentState["nameError"]}</span>
+                <form id="contact-form" onSubmit={this.handleSubmit}>
+                    <div>
+                        <label>Name</label>
+                        <input className="input-field" onChange={this.handleChange} type="text" name="name"/>
+                        <span className='error'>{this.state["nameError"]}</span>
                     </div>
 
-                    <label>Subject</label>
-                    <input className="input-field" onChange={handleChange} type="text" name="subject"/>{currentState["subjectError"].length>0 && 
-                        <span className='error'>{currentState["subjectError"]}</span>}
+                    <div>
+                        <label>Subject</label>
+                        <input className="input-field" onChange={this.handleChange} type="text" name="subject"/>{this.state["subjectError"].length>0 && 
+                            <span className='error'>{this.state["subjectError"]}</span>}
+                    </div>
 
-                    <label>Email</label>
-                    <input className="input-field" onChange={handleChange} type="text" name="email"/>{currentState["emailError"].length>0 && 
-                        <span className='error'>{currentState.emailError}</span>}
+                    <div>
+                        <label>Email</label>
+                        <input className="input-field" onChange={this.handleChange} type="text" name="email"/>{this.state["emailError"].length>0 && 
+                            <span className='error'>{this.state["emailError"]}</span>}
+                    </div>
 
-                    <label>Message</label>
-                    <textarea className="input-field" name="message"></textarea>
+                    <div>
+                        <label>Message</label>
+                        <textarea onChange={this.handleChange} className="input-field" name="message"></textarea>
+                        <span className='error'>{this.state["messageError"]}</span>
+                    </div>
+
 
                     <input id="submit-btn" type="submit" value="Send"/>
                 </form>
@@ -120,9 +131,9 @@ function ContactComponent(){
                 </div>
             </div>
 
-            
-        </div>
-    )
+            </div>
+        )
+    }
 }
 
 export default ContactComponent;

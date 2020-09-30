@@ -12,7 +12,7 @@ import resumePDF from '../resume.pdf'
 function AboutComponent(){
     return (
         <div className="about-full-wrapper">
-        <div className="about-wrapper" style={{'background-image':`url(${backGroundImage})`}}>
+        <div className="about-wrapper" style={{'backgroundImage':`url(${backGroundImage})`}}>
             <h1 className="name-heading">Hi I'm Saurabh Dalakoti</h1>
             <div className="social-wrapper">
                 <a rel="noopener noreferrer" href="https://github.com/Dalakoti07/" target="_blank"><img alt="" src={githubLogo} className="social-platform github-logo"/></a> 
@@ -31,7 +31,7 @@ function AboutComponent(){
                     I know android, django, nodeJS.
                     I think code is like poem, and coders should strive to be poet <Emoji symbol="😀" label="happy"/>.
                 </h6>
-                <a href={resumePDF} target="_blank" className="download-button"><i className="icon-download fa fa-download"></i> Download Resume</a>
+                <a href={resumePDF} target="_blank" rel="noopener noreferrer" className="download-button"><i className="icon-download fa fa-download"></i> Download Resume</a>
             </div>
         </div>
         </div>

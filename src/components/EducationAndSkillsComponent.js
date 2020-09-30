@@ -25,10 +25,10 @@ function EducationAndSkillsComponent(props){
                 <h1 className="my-heading">Skills</h1>
                 <div className="education-card-wrapper">
                 {props.skills.map(skill=>(
-                        <div className="skills-card">
+                        <div key={skill.label} className="skills-card">
                         <p className="skill-label">{skill.label}</p>
-                        <div class="skill-container">
-                            <div class="skills" style={{width:skill.percentage}}></div>
+                        <div className="skill-container">
+                            <div className="skills" style={{width:skill.percentage}}></div>
                         </div>
                         </div>
                     ))}

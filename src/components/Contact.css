@@ -50,16 +50,9 @@
 }
 
 .error {
-	height: 100px;
-	width: 100px;
-	display: block;
 	color:#db2269;
-	font-size: 0.625em;
+	font-size: 12px;
 	display: relative;
-}
-
-.test-box{
-	border: 2px solid red;
 }
 
 @media screen and (max-width: 600px) {
