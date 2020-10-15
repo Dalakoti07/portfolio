@@ -71,12 +71,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ### Todo/Bugs
     - Make a github contribution graph and Skills progress bar
     - https://grubersjoe.github.io/react-github-calendar/
-    - Made with love at footer
     - Show DSA journey 
     - implement smooth scroll when using anchors https://www.digitalocean.com/community/tutorials/how-to-implement-smooth-scrolling-in-react
-    - use emailJS, and use mail gun 
 
     - reduce image size
     - seek solution to the nested scroll
     - reactJS app is scrolling endlessly with white screen - https://www.andreasreiterer.at/fix-whitescreen-static-react-app/
-    
+
