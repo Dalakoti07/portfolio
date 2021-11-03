@@ -13,7 +13,6 @@ var setProjectList
 
 function chipsClicked(tag) {
   let filteredList= getProjectsByTag(tag)
-  console.log(filteredList);
   setProjectList(projects=> filteredList)
 }
 
