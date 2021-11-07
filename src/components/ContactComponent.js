@@ -123,7 +123,7 @@ class ContactComponent extends React.Component{
                 <div className="footer-contact">
                     <p><a href="mailto:">saurabhdalakoti07@gmail.com</a></p>
                     <p><a href="tel:">91-9643957249</a></p>
-                    <p>964/21 Shiv Nagar, Near Sector 10A, Gurgaon, Haryana</p>
+                    <p>Gurgaon, Haryana, India</p>
                 </div>
 
                 <div>
