@@ -92,8 +92,8 @@ function getProjectsByTag(tag) {
 function getPastExperienceData() {
     return [{
         'company_name': '1k',
-        'role_title': 'Android Developer, August 2021 to Present ',
-        'description': ['Working at 1k as an Android Developer, and responsible for maintaining app application and developing features for the same.'
+        'role_title': 'Mobile Developer, August 2021 to Present ',
+        'description': ['Working at 1k as a Mobile Developer, and responsible for creating new apps on Kotlin and Flutter.'
             , 'Thinking through first principle, and leveraging best practises and cutting edge dev tools to create beautiful, maintainable, scalable android apps'],
         'link': "https://www.1knetworks.com/"
     }, {
@@ -105,19 +105,19 @@ function getPastExperienceData() {
     },
         {
             'company_name': 'PayPad India',
-            'role_title': 'Android Developer, June 2020 to Aug 2020 ',
+            'role_title': 'Android Developer Intern, June 2020 to Aug 2020 ',
             'description': ['PayPad is a startup that just kicked off with any intent toward modern security deposit alternative. Tenants can move in without paying high upfront costs and owners get the same security.  '
                 , 'I worked on the android App, and implemented it with MVVM architecture and beautiful material Desing, and using Android best practises in android developement and using Firebase as a service.'],
             'link': "http://paypad.co.in/"
         }, {
             'company_name': 'Daphnis labs',
-            'role_title': 'Android Developer, March 2020 to April 2020 ',
+            'role_title': 'Android Developer Intern, March 2020 to April 2020 ',
             'description': ['Daphnis Lab is well known company in terms of mobile app developement with over 100 app published on playstore, the products speaks for themselves. '
                 , 'I worked on the kotlin android App, and implemented it with MVVM architecture and beautiful UI,and using Android best practises in android developement, including RX Java, Android JetPack,etc.'],
             'link': 'https://github.com/Dalakoti07/daphnis-labs'
         }, {
             'company_name': 'Intellify',
-            'role_title': 'Android Developer, December 2019 to March 2020 ',
+            'role_title': 'Android Developer Intern, December 2019 to March 2020 ',
             'description': ["Intellify is an educational startup with keeping in mind the idea of making high quality education available to all people around India, irrespective of everything."
                 , 'I worked on the android App, and implemented it with MVVM architecture and clean coding, using external libraries like Retrofit, Glide, etc.'],
             'link': 'https://github.com/Dalakoti07/intellify'

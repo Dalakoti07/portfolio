@@ -27,9 +27,8 @@ function AboutComponent(){
             </div>
             <div className="bio-column-2">
                 <h6 className="bio-text">
-                    I am an aspiring software developer, I have experience of making android apps, and love to learn new tech stack and appreciate the new way of doing things and what these new frame-works bring to the table. 
-                    I know android, django, nodeJS.
-                    I think code is like poem, and coders should strive to be poet <Emoji symbol="😀" label="happy"/>.
+                    Software Developer with passion of writing code and making stuff to get things done.
+                    <br/>I think code is like poem, and coders should strive to be poet <Emoji symbol="😀" label="happy"/>.
                 </h6>
                 <a href={resumePDF} target="_blank" rel="noopener noreferrer" className="download-button"><i className="icon-download fa fa-download"></i> Download Resume</a>
             </div>
